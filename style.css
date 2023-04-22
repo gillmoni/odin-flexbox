@@ -1,0 +1,157 @@
+.flex-container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: white;
+    flex-direction: column;
+    border: 2px solid tan;
+}
+
+.flex-header > .nav {
+    padding-left: 50px;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.flex-header .logo {
+    color: #F9FAF8;
+    box-align: left;
+    font-size: 18px;
+    border: 2px solid pink;
+}
+
+.flex-header .links {
+    display: flex;
+    font-size: 12px;
+    padding-left: 50%;
+    border: 2px solid pink;
+    box-align: right;
+
+}
+
+.flex-top-box {
+    display: flex;
+    gap:10%;
+    border: 2px solid yellow;
+    font-size: 18px; ;
+    padding: 2%;
+}
+
+.flex-top-box #button {
+    display: flex;
+    gap:50px;
+    flex:1;
+    border: 4px solid yellow;
+}
+
+.flex-top-box {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.box--left > h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    background-color: #1F2937;
+    border: 4px solid red;
+}
+
+.box--left, .box--right {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    border: 2px solid blue;
+}
+
+#box--button {
+    background-color: #3882f6;
+    color:white;
+}
+
+.flex-information {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2%;
+}
+
+.flex-information > .items {
+    padding-inline:30%;
+    background-color: white;
+    border: 10px solid green;
+    color: black;
+    gap: 10px;
+    border-radius: 10px;
+    flex-direction: row;
+    border: 2px solid palegreen;
+}
+
+.flex-information > .items > .images {
+    padding-inline:30%;
+    background-color: white;
+    color: black;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+
+.flex-information > .items > .images > .image {
+    background-color: white;
+    color: black;
+    gap: 10px;
+    border: 2px solid red;
+}
+
+.flex-quote {
+    padding-inline:20%;
+    background-color: #E5E7EB;
+    gap:50px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.flex-quote > .quote--body {
+    font-style: italic;
+    border: 2px solid blue;
+}
+
+.flex-quote > .quote--author {
+    color: #1F2937;
+    padding-left: 80%;
+    font-weight: bold;
+    border: 2px solid blue;
+}
+
+.flex-action {
+    gap:50px;
+    flex-direction: column;
+    padding-inline:10%;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.flex-action > .action--subitems {
+    background-color: #3882f6;
+    border: 20px solid #3882f6;
+    border-radius: 10px;
+    padding-inline:5%;
+}
+
+.flex-action > .action--subitems > .action-button {
+    border-radius: 2px;
+    color: white;
+    border: 2px solid red;
+}
+
+.flex-footer {
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: 16px;
+    background-color: black;
+    display: flex;
+    color: #F9FAF8;
+    border: 2px solid red;
+}
